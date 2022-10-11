@@ -1,0 +1,44 @@
+div.content{
+    background-color: #0675da;
+}
+div.img{
+    text-align: center;
+}
+input{
+        margin: 0 auto;
+        width: 300px;
+        padding: 10px;
+        padding-left: 30px;
+        display: block;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 20px;
+}
+input[type=submit]{
+    background-color:#333333;
+    border: none;
+    color: white;
+    width: 340px;
+    padding: 10px;
+    cursor: pointer;
+}
+div.img p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+} 
+div.text{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.iconuser{
+  padding-left: 25px;
+  background:white url("") no-repeat left;
+  background-size: 20px;
+}
+.iconpass{
+  padding-left: 25px;
+  background:white url("") no-repeat left;
+  background-size: 20px;
+}
