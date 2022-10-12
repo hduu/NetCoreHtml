@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: rgb(22, 21, 21);
+}
+.left{
+    margin-left: 10px;
+}
+.right{
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+article{
+    text-align: center;
+}
+header{
+    display: flex;
+    background-color: azure;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+}
+header.left{
+    justify-content: left;
+} 
+header.right {
+    justify-content: right;
+}
+header a{
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+right button{
+    border-radius: 50px;
+}
+article{
+    padding-top: 40px;
+    line-height: 60px;
+    position: relative;
+}
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: tahoma;
+}
+h3{
+    font-size: 22px;
+    color: rgb(216, 154, 165);
+}
+input{
+    padding: 10px;
+    border: none;
+    /* border-radius: 15px; */
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: white;
+   
+}
+article > h2 a{
+    color: white;
+}
+.btnsearch{
+    position: absolute;
+    top: 173px;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: aqua;
+    cursor: pointer;
+}
+/* .icon{
+    padding-right: 50px;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right;
+    background-size: 20px;
+    background-color: white;
+} */
+.right-btn{
+border-radius: 15px;
+background-color: yellow;
+border: none;
+text-align: center;
+padding: 7px;
+margin-right: 5px;
+cursor: pointer;
+}
+.right-login{
+background-color: green;
+border: none;
+border-radius:15px ;
+text-align: center;
+padding: 7px;
+cursor: pointer;
+}
